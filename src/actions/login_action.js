@@ -34,7 +34,7 @@ export const login_action = (email, password) => async (dispatchEvent) => {
             ).then((response) => {
                 console.log('In Success Block =>', response )
                 console.log(email, '===',  response.data.username )
-                if (email === response.data.username) {
+                if (email === response.data.username && password ===response.data.password) {
                     dispatchEvent(apiSucceed(response));
                 } else{
                     dispatchEvent(apiError(response));

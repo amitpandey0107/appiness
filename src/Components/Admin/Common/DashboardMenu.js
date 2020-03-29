@@ -23,7 +23,7 @@ class DashboardMenu extends Component {
                         <li className="nav-item"><Link to={"/admin"} className="nav-link"><i className="fa fa-home"></i> Dashboard</Link></li>                        
                         <li className="nav-item"><span className="menu-title text-muted">NAVIGATION</span></li>                       
                         <li className="nav-item">
-                            <Link to={"/admin/user"} className="nav-link"> <i className="fa fa-users"></i> Users</Link>
+                            <Link to={"/admin/list"} className="nav-link"> <i className="fa fa-users"></i> Users</Link>
                         </li>
                         <li className="nav-item"><Link to={"logout"} className="nav-link"><i className="fa fa-sign-out"></i>Logout</Link></li>
                     </ul>
