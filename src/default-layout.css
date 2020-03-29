@@ -1,0 +1,175 @@
+#jz:hover{
+    color:black;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .btn {
+      height: 40px;
+       }
+    }
+  .gig-item1 li {
+    width: 25%;
+    float: left;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .acc-head .dropdown .dropdown-menu {
+  
+    margin-left: -80px !important;
+  }
+  #b1 {
+    min-width: 50px !important;
+  }
+  h3 {
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+   }
+  .filterModal .modal-header .close {
+    color: #9a9a9a !important ;
+     }
+  
+  .btn-black {
+    background: #222222; }
+    .btn-black:hover {
+      background: #f05c74 !important;
+      color: #fff; }
+    .btn-black:focus {
+      color: #fff; }
+  
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color:white !important; }
+  
+  @media (min-width: 768px) {
+    .form-horizontal .form-group-sm .control-label {
+      padding-top: 6px;
+      font-size: 12px; } }
+    .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px; }
+      .btn:hover, .btn:focus, .btn.focus {
+        
+        text-decoration: none; }
+    .btn:active, .btn.active {
+      outline: 0;
+      background-image: none;
+      -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+    .btn.disabled, .btn[disabled],
+    fieldset[disabled] .btn {
+      cursor: not-allowed;
+      opacity: 0.65;
+      filter: alpha(opacity=65);
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+      .rc-time-picker-input {
+        border: 0px solid #d9d9d9;
+  
+      }
+      @media only screen and (max-width: 767px) {
+        .acc-head .dropdown a.dropdown-toggle {
+          
+          color: #fff !important;
+          margin-right: 26px;
+          margin-top: -1px;
+           } }
+      
+  @media only screen and (max-width: 767px) {
+    .pgtitle {
+      margin-top: -5px;
+      padding: 15px 0; }
+    }
+    .carousel-indicators {
+      zoom: 1;
+      position: absolute;
+      bottom: 5px !important;
+    }
+      .faqbtn .btn-filter {
+        padding: 10px;
+      }
+  .navbar-toggle .icon-bar + .icon-bar {
+      margin-top: 4px; }
+   
+  
+  .main {
+    padding-top: 10px; }
+  
+  header .navbar-nav {
+      float: right;
+      margin-top: 00px; 
+    margin-right: -10px;}
+      
+  .pgtitle {
+    background: #222222;
+    /* padding: 10px 0;  */
+  }
+      
+    .acc-head .dropdown a.dropdown-toggle {
+      font-size: 14px;
+      font-family: "sf_ui_displaysemibold";
+      text-transform: uppercase;
+      padding:  6px 10px; }
+  
+      .navbar-default .navbar-text {
+        color: #777; }
+      .navbar-default .navbar-nav > li > a {
+        color:black !important }
+  
+      header .navbar-nav li a {
+          font-family: "sf_ui_displaysemibold";
+          /* color: white !important; */
+        
+          font-size: 14px;
+          padding: 8px; }
+  /*         
+            header .navbar-nav li a:hover:before {
+              opacity: 1;
+              width: 24px; } */
+          header .navbar-nav li a:focus {
+            /* background-color: transparent;  */
+          }
+          header .navbar-nav li a:before {
+            position: absolute;
+            -webkit-transition: all 0.35s ease;
+            transition: all 0.35s ease;
+            bottom: -6px;
+            display: block;
+            height: 0px;
+            width: 0%;
+            content: "";
+            background-color: #f05c74;
+            left: 50%;
+            margin-left: -12px; }
+      header .navbar-nav .active a {
+        color: #f05c74; }
+        header .navbar-nav .active a:before {
+          opacity: 1;
+          width: 24px; }
+  
+           header .navbar-nav li a:hover {
+          color: #f05c74 !important;
+          background-color: transparent; }
+          #ji{
+            font-family: "sf_ui_displayregular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+          }
+          #jz{
+            font-family: "sf_ui_displayregular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+          }
+          .loader {
+            position: absolute;
+            top: 35%;
+            left: 42%;
+            border: 16px solid #f3f3f3; /* Light grey */
+            border-top: 16px solid #3498db; /* Blue */
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+          }
+          
+          @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
