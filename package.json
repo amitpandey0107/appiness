@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "AsyncStorage": "^0.1.5",
     "availity-reactstrap-validation": "^2.6.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "install": "^0.13.0",
     "jquery": "^3.4.1",
     "npm": "^6.13.7",
